@@ -1,6 +1,6 @@
 <template>
   <div class="about row mb-5" id="about">
-        <img class="about-back" src="../assets/img/about.jpeg"/>
+        <div class="back-image"></div>
         <div class="container mt-auto mb-auto">
             <div class="row">
                 <p class="col-md-12">

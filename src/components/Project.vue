@@ -5,7 +5,7 @@
         <h1>Latest Contributions</h1>
         <h5 class="text-center">That I contributed on</h5>
       </div>
-      <div v-for="item in items">
+      <div v-for="item in items" :key="item.id">
         <div v-if="item.id%2==0">
           <div class="row mt-5 mt-md-0">
             <div class="col-lg-6 col-12 order-2 order-lg-1 p-0">

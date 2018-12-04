@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="wrapper">
     <About></About>
     <Project></Project>
     <Skill></Skill>

@@ -15,6 +15,8 @@
 
 //Mobile Imports
 @media only screen and (max-width: 700px) {
+    @import "mobile/base";
     @import "mobile/project";
     @import "mobile/about";
+    @import "mobile/skills";
 }

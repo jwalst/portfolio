@@ -14,7 +14,8 @@ body {
   letter-spacing: 0.5px;
   line-height: 1.4rem;
 
-  overflow-x: hidden;
+  overflow-x: unset;
+  width: 100%;
   .navbar {
     .navbar-brand, .nav-item {
       z-index: 10000;
@@ -23,7 +24,9 @@ body {
         color: $white !important;
       }
     }
-
+  .container{
+    max-width: unset;
+  }
   }
   footer{
     .social{
