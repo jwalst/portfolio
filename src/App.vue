@@ -1,28 +1,37 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <About></About>
+    <Project></Project>
+    <Skill></Skill>
+    <footer class="row">
+        <div class="container text-center">
+            Copyright © Jeffrey Walst 2018
+            <p class="mt-2 col-md-12 social">
+                <a class="p-1" href="https://www.linkedin.com/in/jeffreywalst/">
+                                <font-awesome-icon class="text-black" size="2x" :icon="['fab', 'linkedin']"></font-awesome-icon></a>
+                    <!--<a class="p-1" href="https://github.com/jwalst"><i class="fab fa-2x fa-github"></i></a>-->
+                    <a class="p-1" href="https://gitlab.com/jwalst"><font-awesome-icon size="2x" :icon="['fab', 'gitlab']"></font-awesome-icon></a>
+            </p>
+        </div>
+    </footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import About from './components/About.vue'
+import Project from './components/Project.vue'
+import Skill from './components/Skill.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    About,
+    Project,
+    Skill
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+@import "./assets/scss/app.scss";
 </style>

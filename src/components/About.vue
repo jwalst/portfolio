@@ -1,0 +1,38 @@
+<template>
+  <div class="about row mb-5" id="about">
+        <img class="about-back" src="../assets/img/about.jpeg"/>
+        <div class="container mt-auto mb-auto">
+            <div class="row">
+                <p class="col-md-12">
+                    <img class="img-thumbnail rounded-circle about-img mt-md-5" src="../assets/img/jeffrey.png"/>
+                </p>
+                <p class="mt-2 col-md-12 h1">Jeffrey Walst</p>
+                <p class="mt-2 col-md-12 h5 text-light">Software Engineer</p>
+
+                <p class="mt-lg-5 mt-2 col-md-12">
+
+                    <span class="text-left">
+                        Een spontane en zeer vaardige Software engineer met een ruime kennis van
+                        verschillende talen. Mijn programeer skills kenmerkt zich echt in verschillende CMS en MVC systemen. Ik
+                        beschik ook over de kracht om goed samen te werken met andere collega’s om zo een goede sfeer te
+                        creëren in het bedrijf.
+                    </span>
+                </p>
+
+                <p class="mt-5 col-md-12 social">
+                    <a class="p-1" href="https://www.linkedin.com/in/jeffreywalst/">
+                                <font-awesome-icon size="2x" :icon="['fab', 'linkedin']"></font-awesome-icon></a>
+                    <!--<a class="p-1" href="https://github.com/jwalst"><i class="fab fa-2x fa-github"></i></a>-->
+                    <a class="p-1" href="https://gitlab.com/jwalst"><font-awesome-icon size="2x" :icon="['fab', 'gitlab']"></font-awesome-icon></a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+  name: 'About',
+}
+</script>

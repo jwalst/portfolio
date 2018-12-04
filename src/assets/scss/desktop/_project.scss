@@ -1,0 +1,22 @@
+.project {
+    display: flex;
+    h1 {
+        text-align: center;
+    }
+    .row {
+        img {
+            width: 100%;
+            max-height: 300px;
+            vertical-align: middle;
+            height: auto;
+        }
+        div {
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        .logo-projects{
+            width: 100px;
+            height: auto;
+        }
+    }
+}

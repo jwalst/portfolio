@@ -1,0 +1,20 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+// Variables
+@import "variables";
+
+// Bootstrap
+//Base Import
+@import "base";
+
+//Desktop Imports
+@import "desktop/about";
+@import "desktop/project";
+@import "desktop/skills";
+
+//Mobile Imports
+@media only screen and (max-width: 700px) {
+    @import "mobile/project";
+    @import "mobile/about";
+}

@@ -1,0 +1,46 @@
+.about {
+    position: relative;
+    height: 100vh;
+    color: white;
+    &:before {
+        filter: brightness(50%);
+    }
+    .social {
+        a {
+            color: $white;
+            transition: $transition-fade;
+        }
+        i {
+            &:hover {
+                color: $blue;
+                transition: $transition-fade;
+            }
+        }
+    }
+    .about-back {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 100%;
+        height: 200vh;
+        filter: brightness(30%);
+        object-fit: cover;
+    }
+    .about-img {
+        width: 15rem;
+        height: 16rem;
+        margin: 0 auto;
+    }
+
+    .row {
+        margin: 0 auto;
+        width: 100%;
+        filter: brightness(100%);
+        p {
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+}
+
