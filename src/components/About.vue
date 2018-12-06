@@ -18,13 +18,13 @@
                         creëren in het bedrijf.
                     </span>
                 </p>
-
-                <p class="mt-5 col-md-12 social">
+                <div class="mt-5 col-md-12 text-center">Find me on:</div>
+                <div class="col-md-12 social text-center">
                     <a class="p-1" href="https://www.linkedin.com/in/jeffreywalst/">
-                                <font-awesome-icon size="2x" :icon="['fab', 'linkedin']"></font-awesome-icon></a>
+                                <font-awesome-icon size="2x" :icon="['fab', 'linkedin-in']"></font-awesome-icon></a>
                     <!--<a class="p-1" href="https://github.com/jwalst"><i class="fab fa-2x fa-github"></i></a>-->
                     <a class="p-1" href="https://gitlab.com/jwalst"><font-awesome-icon size="2x" :icon="['fab', 'gitlab']"></font-awesome-icon></a>
-                </p>
+                </div>
             </div>
 
         </div>
