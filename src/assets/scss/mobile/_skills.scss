@@ -1,5 +1,8 @@
 #skills{
-    padding-left:4px; 
+    padding-left:4px;
+    .back-image{
+        min-height: calc(10 * 155px);
+    }
     .under-icon{
         div{
             padding-right: 0;
