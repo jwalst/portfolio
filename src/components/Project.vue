@@ -1,5 +1,5 @@
 <template>
-  <div class="project container mb-5" id="project">
+  <div class="project container-fluid mb-5" id="project">
     <div class="col-12">
       <div class="align-content-center col-12 mb-5">
         <h1>Latest Contributions</h1>
