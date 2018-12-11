@@ -5,39 +5,24 @@
 
       <div class="row mt-4">
         <!-- MCV / CMS -->
-        <div class="col-lg-3 col-md-12 col-12 mb-md-5 mb-lg-0 mb-5 fa-pull-left">
+        <div class="col-lg-12 col-md-12 col-12 mb-md-5 mb-lg-0 mb-5 fa-pull-left">
           <div class="row under-icon mt-4">
             <div class="col-lg-12">
               <h3 class="text-center">Frameworks</h3>
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-4 col-md-2 col-4 fa-pull-left text-center offset-lg-0 offset-md-3">
-              <span class="fa-stack fa-lg fa-3x">
-                <font-awesome-icon class="fa-stack-2x" :icon="['fas', 'circle']"></font-awesome-icon>
-                <font-awesome-icon
-                  class="fa-stack-1x text-white text-center"
-                  size="lg"
-                  :icon="['fab', 'drupal']"
-                ></font-awesome-icon>
-              </span>
-            </div>
-            <div class="col-lg-4 col-md-2 col-4 fa-pull-left text-center">
-              <span class="fa-stack fa-lg fa-3x">
-                <font-awesome-icon class="fa-stack-2x" :icon="['fas', 'circle']"></font-awesome-icon>
-                <font-awesome-icon
-                  class="fa-stack-1x text-white text-center"
-                  :icon="['fab', 'laravel']"
-                ></font-awesome-icon>
-              </span>
-            </div>
-            <div class="col-lg-4 col-md-2 col-4 fa-pull-left text-center">
-              <span class="fa-stack fa-lg fa-3x">
-                <font-awesome-icon class="fa-stack-2x" :icon="['fas', 'circle']"></font-awesome-icon>
-                <font-awesome-icon
-                  class="fa-stack-1x text-white text-center"
-                  size="lg"
-                  :icon="['fab', 'vuejs']"
+            <div v-for="wd in languages" class="col-lg-4 col-md-2 col-4 fa-pull-left text-center">
+              <font-awesome-icon
+                      class="text-black text-center normal-icon"
+                      size="4x"
+                      :icon="[wd.type, wd.name]"
+              ></font-awesome-icon>
+              <span class="stars " v-for="ws in wd.stars">
+                <font-awesome-icon v-bind:class="{ checked: ws }"
+                                   class="text-center"
+                                   size="1x"
+                                   :icon="['fas', 'star']"
                 ></font-awesome-icon>
               </span>
             </div>
@@ -46,7 +31,7 @@
 
         <!-- Webdev -->
         <div
-          class="col-lg-4 col-md-12 col-12 offset-lg-1 mt-md-5 mb-md-5 mb-lg-0 mt-lg-0 mt-5 mb-5 fa-pull-left"
+          class="col-lg-12 col-md-12 col-12 mt-md-5 mb-md-5 mb-lg-0 mt-lg-0 mt-5 mb-5 fa-pull-left"
         >
           <div class="row under-icon mt-4">
             <div class="col-lg-12 col-12 text-center">
@@ -54,48 +39,18 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-4 col-md-2 col-4 fa-pull-left text-center offset-md-2 offset-lg-0">
-              <span class="fa-stack fa-lg fa-3x">
-                <font-awesome-icon class="fa-stack-2x" :icon="['fas', 'circle']"></font-awesome-icon>
+            <div v-for="wd in webdev" class="col-lg-4 col-md-2 col-4 fa-pull-left text-center mb-3">
                 <font-awesome-icon
-                  class="fa-stack-1x text-white text-center"
-                  :icon="['fab', 'php']"
+                  class="text-black text-center normal-icon"
+                  size="4x"
+                  :icon="[wd.type, wd.name]"
                 ></font-awesome-icon>
-              </span>
-            </div>
-            <div class="col-lg-4 col-md-2 col-4 fa-pull-left text-center">
-              <span class="fa-stack fa-lg fa-3x">
-                <font-awesome-icon class="fa-stack-2x" :icon="['fas', 'circle']"></font-awesome-icon>
-                <font-awesome-icon
-                  class="fa-stack-1x text-white text-center"
-                  :icon="['fab', 'html5']"
+              <span class="stars " v-for="ws in wd.stars">
+                <font-awesome-icon v-bind:class="{ checked: ws }"
+                        class="text-center"
+                        size="1x"
+                        :icon="['fas', 'star']"
                 ></font-awesome-icon>
-              </span>
-            </div>
-            <div class="col-lg-4 col-md-2 col-4 fa-pull-left text-center col-xs-4">
-              <span class="fa-stack fa-lg fa-3x">
-                <font-awesome-icon class="fa-stack-2x" :icon="['fas', 'circle']"></font-awesome-icon>
-                <font-awesome-icon
-                  class="fa-stack-1x text-white text-center"
-                  :icon="['fas', 'database']"
-                ></font-awesome-icon>
-              </span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 offset-lg-2 offset-2 col-md-2 col-4">
-              <span class="fa-stack fa-lg fa-3x">
-                <font-awesome-icon class="fa-stack-2x" :icon="['fas', 'circle']"></font-awesome-icon>
-                <font-awesome-icon
-                  class="fa-stack-1x text-white text-center"
-                  :icon="['fab', 'css3']"
-                ></font-awesome-icon>
-              </span>
-            </div>
-            <div class="col-lg-4 col-md-2 col-4">
-              <span class="fa-stack fa-lg fa-3x">
-                <font-awesome-icon class="fa-stack-2x" :icon="['fas', 'circle']"></font-awesome-icon>
-                <font-awesome-icon class="fa-stack-1x text-white text-center" :icon="['fab', 'js']"></font-awesome-icon>
               </span>
             </div>
           </div>
@@ -114,7 +69,7 @@
                 <font-awesome-icon class="fa-stack-2x" :icon="['fas', 'circle']"></font-awesome-icon>
                 <font-awesome-icon
                   class="fa-stack-1x text-white text-center"
-                  :icon="['fas', 'server']"
+                  :icon="['fab', 'linux']"
                 ></font-awesome-icon>
               </span>
             </div>
@@ -133,7 +88,7 @@
                 <font-awesome-icon class="fa-stack-2x" :icon="['fas', 'circle']"></font-awesome-icon>
                 <font-awesome-icon
                   class="fa-stack-1x text-white text-center"
-                  :icon="['fas', 'code-branch']"
+                  :icon="['fab', 'gitlab']"
                 ></font-awesome-icon>
               </span>
             </div>
@@ -146,6 +101,54 @@
 
 <script>
 export default {
-  name: "Skill"
+  name: "Skill",
+  data: function () {
+    return {
+      languages: [
+        {
+          name: "drupal",
+          type: "fab",
+          stars: ['checked', 'checked', 'checked', 'checked', 'checked']
+        },
+        {
+          name: "laravel",
+          type: "fab",
+          stars: ['checked', 'checked', 'checked', 'checked', 'checked']
+        },
+        {
+          name: "vuejs",
+          type: "fab",
+          stars: ['checked', 'checked', 'checked', '', '']
+        }
+      ],
+      webdev: [
+        {
+          name: "php",
+          type: "fab",
+          stars: ['checked', 'checked', 'checked', 'checked', '']
+        },
+        {
+          name: "html5",
+          type: "fab",
+          stars: ['checked', 'checked', 'checked', 'checked', 'checked']
+        },
+        {
+          name: "database",
+          type: "fas",
+          stars: ['checked', 'checked', 'checked', 'checked', '']
+        },
+        {
+          name: "css3",
+          type: "fab",
+          stars: ['checked', 'checked', 'checked', 'checked', 'checked']
+        },
+        {
+          name: "js",
+          type: "fab",
+          stars: ['checked', 'checked', 'checked', 'checked', '']
+        },
+      ]
+    }
+  }
 };
 </script>
