@@ -1,17 +1,19 @@
 #skills{
     display: flex;
+    z-index: 9999;
     .back-image{
-        background-image: url(/img/about.ef09a6b2.jpeg);
-        min-height: 790px;
+        background-image: url('~@/assets/img/code2.png');
+        min-height: 880px;
         width: 100%;
         position: absolute;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        -webkit-filter: brightness(30%);
-        filter: brightness(30%);
+        -webkit-filter: brightness(25%);
+        filter: brightness(25%);
         display: flex;
         left: 0;
+        z-index: -1;
     }
     color:white;
     .under-icon{

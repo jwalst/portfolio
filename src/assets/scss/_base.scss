@@ -45,9 +45,13 @@ body {
   }
   footer{
     width: 100%;
+    span{
+      color:white !important;
+    }
     .social{
       a{
-        color: $black;
+        color: $white;
+        z-index: 9999;
         transition: $transition-fade;
       }
       i{
