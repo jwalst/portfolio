@@ -12,7 +12,7 @@
                 <p class="mt-lg-5 mt-2 col-md-12">
 
                     <span class="text-left">
-                        A spontaneous and very vicious Software engineer with a broad knowledge of different programming languages.
+                        A spontaneous and very skilled Software engineer with a broad knowledge of different programming languages.
                         My programming skills are characterized in different CMS and MVC systems. My main programming languages ​are PHP and VueJS.
                     </span>
                 </p>
