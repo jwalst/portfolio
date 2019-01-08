@@ -12,10 +12,8 @@
                 <p class="mt-lg-5 mt-2 col-md-12">
 
                     <span class="text-left">
-                        Een spontane en zeer vaardige Software engineer met een ruime kennis van
-                        verschillende talen. Mijn programeer skills kenmerkt zich echt in verschillende CMS en MVC systemen. Ik
-                        beschik ook over de kracht om goed samen te werken met andere collega’s om zo een goede sfeer te
-                        creëren in het bedrijf.
+                        A spontaneous and very vicious Software engineer with a broad knowledge of different programming languages.
+                        My programming skills are characterized in different CMS and MVC systems. My main programming languages ​are PHP and VueJS.
                     </span>
                 </p>
                 <div class="mt-5 col-md-12 text-center">Find me on:</div>
