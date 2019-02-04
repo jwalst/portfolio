@@ -13,7 +13,7 @@
 
                     <span class="text-left">
                         A spontaneous and very skilled Software engineer with a broad knowledge of different programming languages.
-                        My programming skills are characterized in different CMS and MVC systems. My main programming languages ​are PHP and VueJS.
+                        My programming skills are characterized in different CMS and MVC systems. My main programming languages are PHP and VueJS.
                     </span>
                 </p>
                 <div class="mt-5 col-md-12 text-center">Find me on:</div>

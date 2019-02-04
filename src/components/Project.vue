@@ -63,17 +63,6 @@ export default {
       items: [
         {
           id: 0,
-          name: "MaaS Potentiescan",
-          type: "Project",
-          img: require("@/assets/img/MaaS-Potentiescan.png"),
-          logo: require("@/assets/img/MPS-logo.png"),
-          startdate: "Sep 2018",
-          enddate: "Ongoing",
-          description:
-                  "Mobility as a Service (MaaS) is a mobility concept in which passengers purchase (part of) their travel requirements from one service provider. The MaaS potential scan gives the user insight into the potential of a MaaS subscription. For this, all residents in the Netherlands individually have the chance that they will purchase the MaaS proposition as a subscription. For this, the MaaS subscription is weighed against the current mobility behavior derived from GSM data. The MaaS potential scan has been made in VueJS and data supplied from OmniTRANS in Ruby ."
-        },
-        {
-          id: 1,
           name: "IPM",
           type: "Project",
           img: require("@/assets/img/ipm.png"),
@@ -82,7 +71,18 @@ export default {
           enddate: "Ongoing",
           description:
             "Project Specification Simplified! IPM (Internalprojectmanager) is a Project management system where companies can manage their project releases. Every Projects is specified in a release. In every release are Features, Non-functional Requirements, Technical Specifications and Out of Scope. Every feature has its own requirements which can be assigned to multiple users in the projects team. Public Version Inbound!"
-        }
+        },
+        {
+          id: 1,
+          name: "MaaS Potentiescan",
+          type: "Project",
+          img: require("@/assets/img/MaaS-Potentiescan.png"),
+          logo: require("@/assets/img/MPS-logo.png"),
+          startdate: "Sep 2018",
+          enddate: "Jan 2018",
+          description:
+                  "Mobility as a Service (MaaS) is a mobility concept in which passengers purchase (part of) their travel requirements from one service provider. The MaaS potential scan gives the user insight into the potential of a MaaS subscription. For this, all residents in the Netherlands individually have the chance that they will purchase the MaaS proposition as a subscription. For this, the MaaS subscription is weighed against the current mobility behavior derived from GSM data. The MaaS potential scan has been made in VueJS and data supplied from OmniTRANS in Ruby ."
+        },
       ]
     };
   }
