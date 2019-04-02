@@ -4,7 +4,7 @@
     <Project></Project>
     <Skill></Skill>
     <footer class="row m-0 pt-md-4 pt-5">
-      <div class="container text-center"><span>Copyright © Jeffrey Walst 2018</span>
+      <div class="container text-center"><span>Copyright © Jeffrey Walst 2019</span>
         <p class="mt-2 col-md-12 social">
           <a class="p-1" href="mailto:info@jeffreywalst.nl">
             <font-awesome-icon class="align-middle" size="2x" :icon="['fas', 'envelope']"></font-awesome-icon>
