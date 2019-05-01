@@ -146,7 +146,7 @@
                         name: "vuejs",
                         exp: "VueJS Cli 3",
                         type: "fab",
-                        stars: ['checked', 'checked', 'checked', null, null]
+                        stars: ['checked', 'checked', 'checked', 'checked', null]
                     }
                 ],
                 webdev: [
@@ -183,8 +183,15 @@
                         name: "js",
                         exp: "Javascript",
                         type: "fab",
-                        stars: ['checked', 'checked', 'checked', null, null]
+                        stars: ['checked', 'checked', 'checked', 'checked', null]
                     },
+                    {
+                        id: 6,
+                        name: "python",
+                        exp: "Python",
+                        type: "fab",
+                        stars: ['checked', 'checked', 'checked', 'checked', null]
+                    }
                 ],
                 flow: [
                     {
@@ -206,7 +213,7 @@
                         name: "git",
                         exp: "Git",
                         type: "fab",
-                        stars: ['checked', 'checked', 'checked', 'checked', null]
+                        stars: ['checked', 'checked', 'checked', 'checked', 'checked']
                     }
                 ]
             }
