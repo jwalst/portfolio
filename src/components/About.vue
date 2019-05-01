@@ -21,7 +21,7 @@
                     <a class="p-1" href="https://www.linkedin.com/in/jeffreywalst/">
                                 <font-awesome-icon size="2x" :icon="['fab', 'linkedin-in']"></font-awesome-icon></a>
                     <!--<a class="p-1" href="https://github.com/jwalst"><i class="fab fa-2x fa-github"></i></a>-->
-                    <a class="p-1" href="https://gitlab.com/jwalst"><font-awesome-icon size="2x" :icon="['fab', 'gitlab']"></font-awesome-icon></a>
+                    <a class="p-1" href="https://gitlab.com/thejeffinator"><font-awesome-icon size="2x" :icon="['fab', 'gitlab']"></font-awesome-icon></a>
                 </div>
             </div>
 

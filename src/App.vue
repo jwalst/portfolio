@@ -6,14 +6,14 @@
     <footer class="row m-0 pt-md-4 pt-5">
       <div class="container text-center"><span>Copyright © Jeffrey Walst 2018</span>
         <p class="mt-2 col-md-12 social">
-          <a class="p-1" href="mailto:info@jeffreywalst.nl">
+          <a class="p-1" href="mailto:hello@jeffreywalst.nl">
             <font-awesome-icon class="align-middle" size="2x" :icon="['fas', 'envelope']"></font-awesome-icon>
           </a>
           <a class="p-1 align-bottom" href="https://www.linkedin.com/in/jeffreywalst/">
             <font-awesome-icon class="text-black align-middle" size="2x" :icon="['fab', 'linkedin-in']"></font-awesome-icon>
           </a>
           <!--<a class="p-1" href="https://github.com/jwalst"><i class="fab fa-2x fa-github"></i></a>-->
-          <a class="p-1 " href="https://gitlab.com/jwalst">
+          <a class="p-1 " href="https://gitlab.com/thejeffinator">
             <font-awesome-icon class="align-middle" size="2x" :icon="['fab', 'gitlab']"></font-awesome-icon>
           </a>
         </p>
