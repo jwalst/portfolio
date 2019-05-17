@@ -24,7 +24,7 @@
                 {{item.startdate}} - {{item.enddate}}
               </p>
               <h6></h6>
-              <p class="mt-4">{{item.description}}</p>
+              <p class="mt-4"><span v-html="item.description"></span></p>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@
                 {{item.startdate}} - {{item.enddate}}
               </p>
               <h6></h6>
-              <p class="mt-4">{{item.description}}</p>
+              <p class="mt-4"><span v-html="item.description"></span></p>
             </div>
             <div class="col-lg-6 col-12 order-2 order-lg-2 p-0">
               <img class="img-projects" v-bind:src="item.img">
@@ -70,7 +70,8 @@ export default {
           startdate: "Sep 2017",
           enddate: "Ongoing",
           description:
-            "Project Specification Simplified! IPM (Internalprojectmanager) is a Project management system where companies can manage their project releases. Every Projects is specified in a release. In every release are Features, Non-functional Requirements, Technical Specifications and Out of Scope. Every feature has its own requirements which can be assigned to multiple users in the projects team. Public Version Inbound!"
+            "<p>Project Specification Simplified! IPM (Internalprojectmanager) is a Project management system where companies can manage their project releases. Every Projects is specified in a release. In every release are Features, Non-functional Requirements, Technical Specifications and Out of Scope." +
+                  " Every feature has its own requirements which can be assigned to multiple users in the projects team.</p> <p>Links: <br><a target='_blank' href='https://gitlab.com/internalprojectmanager/IPM'>Gitlab</a><br><a target='_blank' href='https://internalprojectmanager.com'>Website</a></p>"
         },
         {
           id: 1,
