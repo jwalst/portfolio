@@ -5,6 +5,11 @@ import 'animate.css'
 
 import Vue from 'vue'
 import App from './App.vue'
+import VueAnalytics from 'vue-analytics'
+
+Vue.use(VueAnalytics, {
+  id: 'UA-58212005-1'
+})
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faDatabase, faServer, faCircle, faEnvelope, faStar } from '@fortawesome/free-solid-svg-icons'
