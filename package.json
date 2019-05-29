@@ -12,7 +12,8 @@
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
     "vue": "^2.5.17",
-    "vue-analytics": "^5.16.4"
+    "vue-analytics": "^5.16.4",
+    "vue-router": "^3.0.6"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.4",

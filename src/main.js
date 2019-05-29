@@ -5,10 +5,12 @@ import 'animate.css'
 
 import Vue from 'vue'
 import App from './App.vue'
+import router from './router'
 import VueAnalytics from 'vue-analytics'
 
 Vue.use(VueAnalytics, {
-  id: 'UA-58212005-1'
+  id: 'UA-58212005-1',
+  router
 })
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -25,5 +27,6 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
 
 new Vue({
+  router,
   render: h => h(App),
 }).$mount('#app')
