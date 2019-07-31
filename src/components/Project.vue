@@ -93,7 +93,7 @@ export default {
           startdate: "Sep 2018",
           enddate: "Jan 2019",
           description:
-                  "Mobility as a Service (MaaS) is a mobility concept in which passengers purchase (part of) their travel requirements from one service provider. The MaaS potential scan gives the user insight into the potential of a MaaS subscription. For this, all residents in the Netherlands individually have the chance that they will purchase the MaaS proposition as a subscription. For this, the MaaS subscription is weighed against the current mobility behavior derived from GSM data. The MaaS potential scan has been made in VueJS and data supplied from OmniTRANS in Ruby ."
+                  "<p>Mobility as a Service (MaaS) is a mobility concept in which passengers purchase (part of) their travel requirements from one service provider. The MaaS potential scan gives the user insight into the potential of a MaaS subscription. For this, all residents in the Netherlands individually have the chance that they will purchase the MaaS proposition as a subscription. For this, the MaaS subscription is weighed against the current mobility behavior derived from GSM data. The MaaS potential scan has been made in VueJS and data supplied from OmniTRANS in Ruby.</p> <p>Links: <br><a target='_blank' href='https://maaspotentiescan.nl'>Website</a></p"
         },
 
       ]
