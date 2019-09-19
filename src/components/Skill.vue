@@ -14,66 +14,38 @@
                     </div>
                     <div class="row mt-3">
                         <div v-bind:key="wd.id" v-for="wd in languages" class="col-lg-4 col-md-4 col-12 fa-pull-left text-center mb-3">
-                            <div class="row">
+                            <div class="row align-middle">
                                 <div class="col-md-12">
-                                    <h5 class="">{{wd.exp}}</h5>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-3">
                                     <font-awesome-icon
-                                            class="text-black text-center normal-icon align-middle"
+                                            class="text-black w-25 align-middle mr-2"
                                             size="4x"
                                             :icon="[wd.type, wd.name]"
                                     >
                                     </font-awesome-icon>
-                                </div>
-                                <div class="col-9">
-                                    <div class="col-2 fa-pull-left align-middle p-0" v-bind:key="ws" v-for="ws in wd.stars">
-                                        <font-awesome-icon v-bind:class="{ checked: ws }"
-                                                           class="text-center w-75 align-middle "
-                                                           size="4x"
-                                                           :icon="['fas', 'star']"
-                                        ></font-awesome-icon>
-                                    </div>
+                                    <h5 class="d-inline" style="">{{wd.exp}}</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Webdev -->
-                    <div
-                            class="col-lg-12 col-md-12 col-12 mt-3 mb-3 fa-pull-left"
-                    >
+                    <div class="col-lg-12 col-md-12 col-12 mt-3 mb-3 fa-pull-left">
                         <div class="row under-icon mt-4">
                             <div class="col-lg-12 col-12 text-center">
                                 <h3 class>Webdevelopment</h3>
                             </div>
                         </div>
                         <div class="row mt-3">
-                            <div v-bind:key="wd.id" v-for="wd in webdev" class="col-lg-4 col-md-4 col-12 fa-pull-left text-center mb-3">
-                                <div class="row">
+                            <div v-bind:key="wd.id" v-for="wd in webdev" class="col-lg-4 col-md-4 col-12 fa-pull-left mb-3 text-center">
+                                <div class="row align-middle">
                                     <div class="col-md-12">
-                                        <h5 class="">{{wd.exp}}</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-3">
                                         <font-awesome-icon
-                                                class="text-black text-center normal-icon align-middle"
+                                                class="text-black align-middle mr-2"
                                                 size="4x"
                                                 :icon="[wd.type, wd.name]"
                                         >
                                         </font-awesome-icon>
-                                    </div>
-                                    <div class="col-9">
-                                        <div class="col-2 fa-pull-left align-middle p-0" v-bind:key="ws" v-for="ws in wd.stars">
-                                            <font-awesome-icon v-bind:class="{ checked: ws }"
-                                                               class="text-center w-75 align-middle "
-                                                               size="4x"
-                                                               :icon="['fas', 'star']"
-                                            ></font-awesome-icon>
-                                        </div>
+                                        <h5 class="d-inline align-middle" style="">{{wd.exp}}</h5>
                                     </div>
                                 </div>
                             </div>
@@ -88,28 +60,18 @@
                         </div>
                         <div class="row mt-3">
                             <div v-bind:key="wd.id" v-for="wd of flow" class="col-lg-4 col-md-4 col-12 fa-pull-left text-center mb-3">
-                                <div class="row">
+                                <div class="row align-middle">
                                     <div class="col-md-12">
-                                        <h5 class="">{{wd.exp}}</h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-3">
                                         <font-awesome-icon
-                                                class="text-black text-center normal-icon align-middle"
+                                                class="text-black w-25 align-middle mr-2"
                                                 size="4x"
                                                 :icon="[wd.type, wd.name]"
                                         >
                                         </font-awesome-icon>
+                                        <h5 class="d-inline" style="">{{wd.exp}}</h5>
                                     </div>
-                                    <div class="col-9">
-                                        <div class="col-2 fa-pull-left align-middle p-0" v-bind:key="ws" v-for="ws in wd.stars">
-                                            <font-awesome-icon v-bind:class="{ checked: ws }"
-                                                               class="text-center w-75 align-middle "
-                                                               size="4x"
-                                                               :icon="['fas', 'star']"
-                                            ></font-awesome-icon>
-                                        </div>
+                                    <div class="col-md-6">
+
                                     </div>
                                 </div>
                             </div>
@@ -130,21 +92,21 @@
                     {
                         id: 1,
                         name: "drupal",
-                        exp: "Drupal 7/8",
+                        exp: "Drupal",
                         type: "fab",
                         stars: ['checked', 'checked', 'checked', 'checked', null]
                     },
                     {
                         id: 2,
                         name: "laravel",
-                        exp: "Laravel 5.x",
+                        exp: "Laravel",
                         type: "fab",
                         stars: ['checked', 'checked', 'checked', 'checked', null]
                     },
                     {
                         id: 3,
                         name: "vuejs",
-                        exp: "VueJS Cli 3",
+                        exp: "VueJS (Cli)",
                         type: "fab",
                         stars: ['checked', 'checked', 'checked', 'checked', null]
                     }
@@ -168,13 +130,13 @@
                         id: 3,
                         name: "php",
                         type: "fab",
-                        exp: "PHP 7",
+                        exp: "PHP",
                         stars: ['checked', 'checked', 'checked', 'checked', null]
                     },
                     {
                         id: 4,
                         name: "database",
-                        exp: "MySQL Database",
+                        exp: "MySQL",
                         type: "fas",
                         stars: ['checked', 'checked', 'checked', 'checked', null]
                     },
@@ -197,7 +159,7 @@
                     {
                         id: 1,
                         name: "linux",
-                        exp: "Linux Server",
+                        exp: "Linux",
                         type: "fab",
                         stars: ['checked', 'checked', 'checked', 'checked', 'checked']
                     },

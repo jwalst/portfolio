@@ -3,7 +3,7 @@
     z-index: 9999;
     .back-image{
         background-image: url('~@/assets/img/code2.png');
-        min-height: 880px;
+        min-height: 730px;
         width: 100%;
         position: absolute;
         background-position: center;
@@ -20,5 +20,11 @@
         div{
             padding-right: 0;
         }
+    }
+    .height-50{
+        height: 50px;
+    }
+    svg{
+        height: 50px;
     }
 }
