@@ -1,4 +1,4 @@
-name: trigger gitlab job
+name: Gitlab CI
 on: [push]
 jobs:
 
